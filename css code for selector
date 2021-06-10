@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* id selector */
+        #thirdelement{
+            color: blue;
+background-color: yellow;
+        }
+        /* element selector */
+        p{
+            color: lightseagreen;
+            background-color: palevioletred;
+        }
+        /* class selector */
+.redelement{
+    color: violet;
+    border-color: royalblue;
+    background-color: darkgray;
+}
+/* grouping selector */
+footer, span{
+    color: darkorchid;
+    background-color: darksalmon;
+}
+            
+
+
+    </style>
+</head>
+<body>
+    <h3>hello people</h3>
+    <p id="secondelement" class="redelement blueelement">kaise ho mere bhaiii log</p>     
+    <p id="thirdelement">tum sab achhe aadmi ho</p>
+    <p>sab enjoy kro bhaiii </p>
+    <span>this is aadii</span>
+    <footer>your bestfriend</footer>
+    
+</body>
+</html>
